@@ -1,0 +1,319 @@
+.body{
+    font-family: 'ABeeZee', sans-serif;
+    background-image:url(imagenes/fondo.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+        
+    }
+p{
+    text-align:justify;
+    margin-top: 50px;
+ }
+    *{
+                font-family: 'ABeeZee', sans-serif;   
+                margin: 0;
+                padding: 0;
+               
+        
+    }
+ h1 {
+    text-align:center;
+    margin-bottom: 60px;
+    font-size: 30px;
+     
+     
+ }
+ 
+.bloque-inicio{
+   display: block;
+    margin:auto;
+}
+
+  
+nav {
+    height:200px ;
+    display: flex;
+
+}
+.menu{
+    margin-top: 20px;
+
+}
+.logo {
+    width: 250px;
+    height: 250px;
+padding-top: 0px;
+margin-left:20px ;    
+
+
+
+}
+nav a {text-decoration:none ;
+  font-family: 'ABeeZee',0 sans-serif; 
+
+  
+}
+nav button{
+    margin-top: 30px;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgba(97, 179, 255, 1);   
+}
+
+.iconos{
+    margin-top: 66px;
+}
+.paisaje{
+    display: block;
+    margin:auto ;
+    
+}
+.bloque-inicio p{
+        margin-left:200px;
+        margin-right: 200px;
+       font-size: 25px;
+}
+.autor{
+    width: 400px;
+    margin-left:10px;
+    margin-bottom: 80px;
+    height:300px  ;
+}
+
+
+.flex{
+    display: flex;
+    margin-right:10% ;
+    margin-left: 10%;
+    margin-bottom:0px ;
+    padding: 0 ;
+        
+}
+.parrafo1{
+    font-size: 25px;
+    margin-right:20% ;
+    margin-left: 20%;
+    border-bottom:5px solid gray ;
+    width: 40%;
+    }
+
+.parrafo2{
+    margin-right:10% ;
+    margin-left: 9%;
+    font-size: 20px;
+    
+   
+    
+}
+.parrafo3{
+      margin-right:5% ;
+    margin-left: 60%;
+    font-size: 20px;
+    margin-top:0px ;
+    border-bottom:5px solid gray ;
+    border-top:5px solid gray ;
+    
+}
+
+.parrafo4{
+    margin-right:10%;
+    margin-left: 0%;
+    font-size: 20px;
+    margin-top:0px ;
+
+    
+}
+
+.parrafo5{
+    margin-right:10% ;
+    margin-left: 1%;
+    font-size: 20px;
+    margin-top:0px ;
+}
+
+.parrafo6{
+    margin-right: 200px;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top:0px ;
+}
+.parrafo7{
+    margin-right:5% ;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top:0px ;
+}
+.parrafo8{
+    margin-right:5% ;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-top:0px ;
+}
+
+.salud{
+    width: 1000px;
+    margin-left:500px;
+    margin-bottom: 10px;
+    height:300px;
+    margin-top: 10px;
+}
+
+.chakras{
+    margin-right:2% ;
+    margin-left: 9%;
+    font-size: 20px;
+}
+
+.columna{
+    margin-right:2% ;
+    font-size: 20px;
+    
+}
+
+
+.fila{  
+    margin-right:20% ;
+    margin-left:2% ;
+    font-size: 20px;
+}
+
+h1.fondohistoria{
+    background-image:url(imagenes/fondo.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height:100px;
+    
+}
+
+footer.abajo{
+    background-image:url(imagenes/fondo.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height:80px;
+    text-align: 100%;
+   
+
+}
+
+
+@media(max-width:1024px)
+{.container nav{
+    width:  100%;
+}
+
+}
+
+@media(max-width:768px)
+{.container nav{
+    width:auto;
+    } 
+    .bloque-inicio h1{
+        margin-top: 90px;
+    }
+.paisaje{
+    width: 89%;
+    height: 300px;
+}
+.bloque-inicio p{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+}
+
+@media(max-width:320px){
+    
+    .container nav{
+    width:auto;
+    } 
+    .bloque-inicio h1{
+        margin-top: 80px;
+    }
+.paisaje{
+    width: 90%;
+    height: 200px;
+}
+.bloque-inicio p{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+}
+
+@media(max-width:1024px)
+{.menu{
+    width:  100%;
+}
+.bloque-historia .parrafo2{
+    margin-left: 0px;
+    margin-right: 300px;
+    font-size: 20px;
+}
+.bloque-historia .autor{
+    width: 400px;
+    margin-left:10px;
+    margin-bottom: 80px;
+    height:300px
+
+    
+}
+.bloque-historia .flex{
+    
+    margin-right:50% ;
+    margin-left: 8%;
+    margin-bottom:10px ;
+    padding: 0 ;
+        
+}
+.bloque-historia .parrafo3{
+    width:100px;
+    height:100px;
+    margin-left: 500px;
+    font-size: 12px;
+    
+}
+.bloque-historia h1{
+    margin-top: 10px;
+
+
+}
+}
+@media(max-width:768px){
+   
+    .bloque-historia .parrafo2{
+        margin-left: 0px;
+        margin-right: 300px;
+        font-size: 20px;
+    }
+    .bloque-historia .autor{
+        width: 400px;
+        margin-left:10px;
+        margin-bottom: 80px;
+        height:300px
+    
+        
+    }
+    .bloque-historia .flex{
+        
+        margin-right:50% ;
+        margin-left: 8%;
+        margin-bottom:10px ;
+        padding: 0 ;
+            
+    }
+    .bloque-historia .parrafo3{
+        width:100px;
+        height:400px;
+        margin-left: 500px;
+        font-size: 12px;
+        
+    }
+    .bloque-historia h1{
+        margin-top: 10px;
+    
+    
+    }
+}
